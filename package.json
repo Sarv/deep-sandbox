@@ -1,0 +1,24 @@
+{
+  "name": "deep-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "acorn": "^8.12.1",
+    "escodegen": "^2.1.0",
+    "esprima": "^4.0.1",
+    "pidusage": "^3.0.2",
+    "vm2": "^3.9.19"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "eslint-plugin-security": "^3.0.1"
+  }
+}
