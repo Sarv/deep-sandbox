@@ -1,7 +1,7 @@
 // Import necessary modules
 const { VM, VMScript } = require('vm2'); // Secure sandboxing of code execution
 const readline = require('readline'); // For reading input from the terminal
-const { ESLint } = require("eslint"); // ESLint for linting the user's script
+const { ESLint } = require("eslint"); // ESLint for linting the user's script.
 const util = require('util'); // Utilities module
 const esprima = require('esprima'); // JavaScript parser to generate an AST (Abstract Syntax Tree)
 const escodegen = require('escodegen'); // Generate code back from AST
